@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Map with Multiple Links</title>
+    <style>
+        body {
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        img {
+            width: 500px;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>Click on Faces</h1>
+
+    <img src="/anhnhom.jpg" usemap="#facesMap" alt="Group photo">
+
+    <map name="facesMap">
+        <!-- Face 1 (Adjust the coordinates based on the position of the face in the image) -->
+        <area shape="rect" coords="70,155,160,268" href="person1.html" alt="Person 1">
+
+        <!-- Face 2 (Adjust the coordinates based on the position of the face in the image) -->
+        <area shape="rect" coords="200,157,269,363" href="person2.html" alt="Person 2">
+
+        <!-- Face 3 (Adjust the coordinates based on the position of the face in the image) -->
+        <area shape="rect" coords="360,70,500,365" href="person3.html" alt="Person 3">
+    </map>
+</body>
+</html>
